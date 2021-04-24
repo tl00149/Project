@@ -24,6 +24,10 @@ careersRight {
     margin: 5% 0 0 35%;
 }
 
+.centerStage {
+    display: flex;
+    justify-content: center;
+}
 
 defaultCenter {
     text-align: center;
@@ -172,7 +176,7 @@ defaultCenter {
 
 .over {
     background-color: white;
-    margin: 12% 0% 0% 2%;
+    margin: 10% 0% 0% 2%;
     height: 95%;
     width: 96%;
     position: absolute;
@@ -180,9 +184,9 @@ defaultCenter {
 
 .registerContainer {
     width: 400px;
-    height: 500px;
+    height: 620px;
     margin: 0px auto;
-    background-color: white;
+    background-color: #A0A0A0;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
@@ -190,7 +194,7 @@ defaultCenter {
 .registerContainerTwo {
     width: 400px;
     height: 45px;
-    background-color: pink;
+    background-color: #A0A0A0;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
@@ -198,7 +202,7 @@ defaultCenter {
 .registerContainerThree {
     margin-top: 100px;
     width: 350px;
-    height: 425px;
+    height: 480px;
     background-color: #A0A0A0;
     margin: 0px auto;
     border-radius: 10px;
@@ -210,10 +214,16 @@ defaultCenter {
     color: red;
 }
 
+.registerFont {
+    font-size: 13px;
+    margin-left: 3%;
+    color: white;
+}
+
 .registerName[type=text] {
     font-size: 13px;
     border-radius: 5px;
-    height: 23px;
+    height: 18px;
     width: 150px;
     border: none;
     padding: 3px;
@@ -223,7 +233,7 @@ defaultCenter {
 .registerNamePass[type=Password] {
     font-size: 13px;
     border-radius: 5px;
-    height: 23px;
+    height: 18px;
     width: 150px;
     border: none;
     padding: 3px;
@@ -238,6 +248,37 @@ defaultCenter {
     border: 1px solid #ccc;
     height: 40%;
     color: gray;
+}
+
+.select2 {
+    margin: 0% 0 0 3%;
+    width: 70%;
+    padding: 5px 15px 5px 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 50%;
+    color: gray;
+    border-radius: 5px;
+}
+
+.select {
+    margin: 2% 0 0 2%;
+    width: 45%;
+    padding: 5px 20px 5px 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 10%;
+    color: gray;
+}
+
+.select5 {
+    margin: 2% 0 0 2%;
+    width: 150px;
+    padding: 3px 10px 3px 3px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 25px;
+    color: black;
 }
 
 .subSearch {
@@ -342,6 +383,17 @@ defaultCenter {
     padding: 3px;
     background-color: white;
     margin: 1% 0 0 15%;
+}
+
+.updateInputFour[type=text] {
+    font-size: 13px;
+    border-radius: 2px;
+    height: 16px;
+    width: 75%;
+    border: none;
+    padding: 3px;
+    background-color: white;
+    margin: 0% 0 0 5%;
 }
 
 .updateLabel {

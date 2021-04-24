@@ -17,7 +17,7 @@
                     <a href="FAQ.aspx" style="text-decoration: none; color: black">FAQ</a>
                     <br />
                     <br />
-                    <a href="Employee.aspx" style="text-decoration: none; color: black">Careers Login</a>
+                    <a href="Employee.aspx" style="text-decoration: none; color: black">Careers Portal</a>
                 </div>
             </div>
             <!--Right text top-->
@@ -47,7 +47,6 @@
                 <img src="pictures/CleanOne.jpg" style="height: 300px; margin: 5% 0 0 5%" class="leftImage"/>
                 <br />
                 <br />
-
                 <p style="margin-left: 55%; font-size: 17px; font-family: 'Segoe UI'">
                     <br />
                     <br />

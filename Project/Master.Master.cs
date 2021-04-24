@@ -11,7 +11,16 @@ namespace Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                ddlMaster.SelectedValue = Request.Url.AbsolutePath;
+            }
         }
+
+        protected void ddlMaster_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect(ddlMaster.SelectedValue);
+        }
+
     }
 }

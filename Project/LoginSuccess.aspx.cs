@@ -22,6 +22,7 @@ namespace Project
                     if (Session["UserID"] != null)
                     {
                         // Session to string
+                        //Change back to "UserID"
                         lblUser.Text = Session["UserID"].ToString();
                     }
                     else

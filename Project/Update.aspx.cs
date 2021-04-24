@@ -14,7 +14,7 @@ namespace Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack)
+            if (Session["UserID"] != null)
             {
                 txtUpFName.Visible = false;
                 txtUpLName.Visible = false;
@@ -64,12 +64,23 @@ namespace Project
                     lblUpAddress.Text = readerOne.GetString(6).Trim();
                     lblUpCity.Text = readerOne.GetString(7).Trim();
                     lblUpZip.Text = readerOne.GetInt32(8).ToString().Trim();
+                    if (Session["TypeVar"].ToString() == "1")
+                    {
+                        lblUpType.Text = "Customer";
+                    }
+                    else
+                    {
+                        lblUpType.Text = "Employee";
+                    }
                 }
 
                 // Close the connection
                 connectionOne.Close();
             }
-
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
 
 

@@ -10,7 +10,7 @@
             <p style="margin-top: -110px; font-size: 55px; text-align: center; color: white;">Denton, TX</p>
         </div>
         <!--Text following image-->
-        <div style="height: 500px; width: 100%; background-color: #e6e4e2; margin-top: 11%">
+        <div style="height: 500px; width: 100%; background-color: #e6e4e2; margin-top: 9%">
             <p style="text-align: center; font-size: 50px; font-family:'Segoe UI'; font-style: italic;">
                 <br />
                 <br />

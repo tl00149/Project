@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Checkout.aspx" />
+    <Content Include="Goodbye.aspx" />
     <Content Include="LoginSuccess.aspx" />
     <Content Include="Pictures\avatar0.png" />
     <Content Include="Pictures\calendar.png" />
@@ -75,16 +78,26 @@
     <Content Include="Pictures\cleanclip.png" />
     <Content Include="Pictures\CleanOne.jpg" />
     <Content Include="Default.aspx" />
+    <Content Include="Pictures\bathroom.png" />
+    <Content Include="Pictures\harsh.jpg" />
+    <Content Include="Pictures\huy.jpg" />
+    <Content Include="Pictures\laundry.png" />
+    <Content Include="Pictures\ironing.png" />
     <Content Include="Pictures\dentonsquare.jpeg" />
     <Content Include="Pictures\dentonstreet.jpg" />
     <Content Include="Employee.aspx" />
     <Content Include="FAQ.aspx" />
+    <Content Include="Pictures\dryclean.png" />
     <Content Include="Pictures\FaqImage2.jpg" />
     <Content Include="Pictures\HIWImage.jpg" />
     <Content Include="HowItWorks.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Pictures\deepclean.png" />
+    <Content Include="Pictures\me.jpg" />
     <Content Include="Pictures\nature-header.jpg" />
     <Content Include="Pictures\phone.png" />
+    <Content Include="Pictures\dusting.png" />
+    <Content Include="Pictures\ryan.jpg" />
     <Content Include="Register.aspx" />
     <Content Include="RegisterSuccess.aspx" />
     <Content Include="Safety.aspx" />
@@ -95,6 +108,7 @@
     <Content Include="Pictures\UNTLOGO.png" />
     <Content Include="Pictures\UNTNIGHT.jpg" />
     <Content Include="Pictures\untpartay.jpg" />
+    <Content Include="ThankYou.aspx" />
     <Content Include="Update.aspx" />
     <Content Include="Pictures\usericon.png" />
     <Content Include="Web.config" />
@@ -113,6 +127,20 @@
     </Compile>
     <Compile Include="Careers.aspx.designer.cs">
       <DependentUpon>Careers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -134,6 +162,13 @@
     </Compile>
     <Compile Include="FAQ.aspx.designer.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Goodbye.aspx.cs">
+      <DependentUpon>Goodbye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Goodbye.aspx.designer.cs">
+      <DependentUpon>Goodbye.aspx</DependentUpon>
     </Compile>
     <Compile Include="HowItWorks.aspx.cs">
       <DependentUpon>HowItWorks.aspx</DependentUpon>
@@ -191,6 +226,13 @@
     </Compile>
     <Compile Include="Services.aspx.designer.cs">
       <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThankYou.aspx.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThankYou.aspx.designer.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
     </Compile>
     <Compile Include="Update.aspx.cs">
       <DependentUpon>Update.aspx</DependentUpon>

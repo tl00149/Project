@@ -42,6 +42,7 @@ namespace Project
             RegisCommand.Parameters.AddWithValue("@Address", txtRegAddress.Text);
             RegisCommand.Parameters.AddWithValue("@City", txtRegCity.Text);
             RegisCommand.Parameters.AddWithValue("@Zip", txtRegZip.Text);
+            RegisCommand.Parameters.AddWithValue("@Type", styFall.Text);
 
             // Open the connection
             RegisConnection.Open();

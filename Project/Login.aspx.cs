@@ -27,6 +27,8 @@ namespace Project
             string Email = "";
             string Pass = "";
             string UserID2 = "";
+            string TypeVar = "";
+            int Cust_ID = 0;
 
             // declare SQLDataReader
             SqlDataReader readerOne;
@@ -56,6 +58,7 @@ namespace Project
             while (readerOne.Read())
             {
                 // Assign UserID with index 0 (email)
+                Cust_ID = readerOne.GetInt32(0);
                 Email = readerOne.GetString(1).Trim();
 
                 // Same but with password
@@ -64,6 +67,7 @@ namespace Project
                 // Create session variable with full name
                 UserID2 = readerOne.GetString(3).Trim() + " "
                     + readerOne.GetString(4).Trim();
+                TypeVar = readerOne.GetString(9).Trim();
             }
 
             // Close the connection
@@ -73,6 +77,8 @@ namespace Project
             {
                 Session["UserID"] = UserID2;
                 Session["Email"] = Email;
+                Session["TypeVar"] = TypeVar;
+                Session["Cust_ID"] = Cust_ID;
                 Response.Redirect("LoginSuccess.aspx");
             }
             else

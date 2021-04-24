@@ -63,8 +63,8 @@
         <div style="height: 1300px; width: 100%; background-color: ghostwhite">
             <!--hey dawg, we dived ur div so you can div while you div flex-->
             <div style="display: flex;">
-                <div style="margin: 10% 0 0 13%;">
-                <img src="pictures/usericon.png" style="height: 320px;"/>
+                <div style="margin: 10% 0 0 20%;">
+                <img src="pictures/me.jpg" style="height: 320px; width: 270px"/>
                     <p>
                         Tae Hwan Lee is the CEO of GoodRoom Inc.
                         <br />
@@ -78,21 +78,21 @@
                     </p>
                 </div>
                 <div style="margin: 10% 0 0 17%;">
-                <img src="pictures/usericon.png" style=" height: 320px;"/>
+                <img src="pictures/ryan.jpg" style=" height: 320px; width: 270px;"/>
                     <p>
                         Ryan Malin is the CFO of GoodRoom Inc.
                         <br />
                         and a Senior BCIS major at the University
                         <br />
-                        of North Texas. He is an avid
+                        of North Texas. In his spare time, he 
                         <br />
-                        blank blank blank
+                        likes to play video games or watch movies.
                     </p>
                 </div>
             </div>
             <div style="display: flex;">
-                <div style="margin: 10% 0 0 13%;">
-                <img src="pictures/usericon.png" style="height: 320px;"/>
+                <div style="margin: 10% 0 0 20%;">
+                <img src="pictures/huy.jpg" style="height: 320px; width: 270px;"/>
                     <p>
                         Huy Nguyen is the COO of GoodRoom Inc.
                         <br />
@@ -100,13 +100,13 @@
                         <br />
                         at the University of North Texas. 
                         <br />
-                        His hobbies include BLANK BLANK BLANK
+                        His hobbies include fishing, playing
                         <br />
-                        BLANK BLANK BLANK.
+                        video games, and hiking.
                     </p>
                 </div>
                 <div style="margin: 10% 0 0 17%;">
-                <img src="pictures/usericon.png" style=" height: 320px;"/>
+                <img src="pictures/harsh.jpg" style=" height: 320px; width: 270px;"/>
                     <p>
                         Harsh Ramesh is the CMO of GoodRoom Inc.
                         <br />
@@ -114,7 +114,7 @@
                         <br />
                         of North Texas. His hobbies include
                         <br />
-                        blank blank blank.
+                        reading and playing video games.
                     </p>
                 </div>
             </div>

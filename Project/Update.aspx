@@ -185,17 +185,38 @@
                                 </div>
                             </div>
                             <div style="display: flex">
-                                <div style="display:inline-block; margin: 3% 0 0 0%">
+                                <div style="display:inline-block; margin: 10% 0 0 0%">
                                     <div class="" style="vertical-align: middle; text-align: center; display: table-cell">
                                         <asp:Label style="color: white" class="updateLabelTwo" ID="lblUpZip" runat="server" Text="lblUpZip"></asp:Label>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!--Type-->
                         <div style="display: flex; background-color: transparent; margin-top: 3%">
                             <div style="display:inline-block; margin: 2% 0 0 0%">
                                 <div class="" style="vertical-align: middle; text-align: center; display: table-cell">
-                                    <asp:CheckBox style="justify-content: center;" ID="chDeleteAcc" runat="server" AutoPostBack="true"/>
+                                </div>
+                            </div>
+                            <div style="display:inline-block; margin: 2% 0 0 42px">
+                                <div class="" style="vertical-align: middle; text-align: center; display: table-cell; font-family: Verdana; font-size: 14px; color: white;">
+                                    <b>
+                                    Account Type:
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div style="display:inline-block; margin: 2% 0 0 0%">
+                                <div class="" style="vertical-align: middle; text-align: center; display: table-cell">
+                                    <asp:Label style="color: white" class="updateLabelTwo" ID="lblUpType" runat="server" Text="lblUpType"></asp:Label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Delete-->
+                        <div style="display: flex; background-color: transparent; margin-top: 3%">
+                            <div style="display:inline-block; margin: 2% 0 0 0%">
+                                <div class="" style="vertical-align: middle; text-align: center; display: table-cell">
+                                    <asp:CheckBox style="justify-content: center;" ID="chDeleteAcc" runat="server" AutoPostBack="false"/>
                                 </div>
                             </div>
                             <div style="display:inline-block; margin: 2% 0 0 20px">
@@ -282,12 +303,12 @@
                 <!-- Submit button for DELETE -->
                 <div style="display:flex; margin: 0 auto; justify-content: center;">
                     <!-- OnClick="DeleteButton_Click"-->
-                    <asp:button class="buttonReg" style="margin-top: 3%; background-color: indianred;" id="DeleteButton" runat="server" Text="Delete Account" CausesValidation="false" EnableClientScript="false"/>
+                    <asp:button class="buttonReg" style="margin-top: 3%; background-color: indianred;" id="DeleteButton" runat="server" Text="Delete Account" CausesValidation="false" EnableClientScript="false" OnClick="DeleteButton_Click"/>
                 </div>
             </div>
         </div>
     </div>
-        <div style="height: 400px; margin-top: -20%; Background-color: #363945; width: 100%;">
+        <div style="height: 530px; margin-top: -20%; Background-color: #363945; width: 100%;">
         </div>
     </div>
     <asp:SqlDataSource ID="SqlDataSourceUpdate" runat="server" ConnectionString='<%$ ConnectionStrings:Team13ConnectionString %>' DeleteCommand="DELETE from [Cust_Login] WHERE [Cust_EMAIL] = @EMAIL" SelectCommand="SELECT * FROM [Cust_Login] WHERE ([Cust_Email] = @Email)" UpdateCommand="UPDATE [Cust_Login] SET [Cust_Password] = @Password, [Cust_FName] = @FName, [Cust_LName] = @LName, [Cust_YOB] = @YOB, [Cust_Address] = @Address, [Cust_City] = @City, [Cust_Zip] = @Zip WHERE [Cust_EMAIL] = @EMAIL">

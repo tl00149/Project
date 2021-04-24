@@ -26,12 +26,27 @@
                     <a class="navbarTextOne" href="Default.aspx">Home</a>
                     <a class="navbarTextOne" href="Careers.aspx">Careers</a>
                     <a class="navbarTextOne" href="Services.aspx">Services</a>
-                    <a class="navbarTextOne" href="About.aspx">About Us</a>
-                    <a class="navbarTextOne" href="Login.aspx" style="margin-left: 58%">Login</a>
-                    <a class="navbarTextOne" href="Update.aspx">Update</a>
+                    <a class="navbarTextOne" href="About.aspx">About</a>
+                    <div class="dropdown" style="margin-left: 55%">
+                        <asp:DropDownList runat="server" ID="ddlMaster" AutoPostBack="true" OnSelectedIndexChanged="ddlMaster_SelectedIndexChanged" class="select5">
+                            <asp:ListItem Value="">Select an option</asp:ListItem>
+                            <asp:ListItem Value="Login.aspx">Login</asp:ListItem>
+                            <asp:ListItem Value="Update.aspx">Update</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <a class="navbarTextOne" href="Cart.aspx">Cart</a>
+                    <!--
+                    <asp:Label runat="server" Text="aoidsu">
+                        <a class="navbarTextOne" href="Login.aspx" style="margin-left: 58%"></a>
+                    </asp:Label>
+                    <asp:Label runat="server" text="">
+                        <a class="navbarTextOne" href="Update.aspx" id="uLink"></a>
+                    </asp:Label>
+                    sdasd-->
+
+                    
                 </div>
             </div>
-
             <!--Body-->
             <div>
 
